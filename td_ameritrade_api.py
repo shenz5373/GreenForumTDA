@@ -44,7 +44,7 @@ def get_access_token():
                'redirect_uri': 'http://localhost/test'}
     auth_reply = requests.post(url, headers=headers, data=payload)
     decoded_content = auth_reply.json()
-    print("authorization response:", decoded_content)
+    # print("authorization response:", decoded_content)
     refresh_token = decoded_content['refresh_token']
     return decoded_content['access_token']
 
@@ -58,7 +58,7 @@ def refresh_token():
                'client_id': client_id}
     auth_reply = requests.post(url, headers=headers, data=payload)
     decoded_content = auth_reply.json()
-    print("refresh token response", decoded_content)
+    print("refresh token response")   # print("refresh token response", decoded_content)
     return decoded_content['access_token']
 
 
@@ -68,7 +68,7 @@ def account_available(account_num, access_token):
 
     content = requests.get(url=endpoint, headers=headers)
     data = content.json()
-    print(data)
+    # print(data)
     account_found = False
     for account in data:
         print(account['securitiesAccount']['accountId'])
@@ -347,7 +347,7 @@ def trading_hours():
     if now.weekday() > 4:  # https://pythontic.com/datetime/date/weekday
         return False
     hour = now.hour
-    if hour > 19 or hour < 7:  # 7 am until 8 pm Monday trrough Friday
+    if hour > 19 or hour < 7:  # 7 am until 8 pm Monday through Friday
         return False
     else:
         return True
