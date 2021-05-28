@@ -1,5 +1,5 @@
 1: account_stock_list.txt
-[{"account_number":"237940770","stock_list":["METX","AMD"]},{"account_number":"237353025","stock_list":[]}]
+[{"account_number":"111111111","stock_list":["METX","AMD"]},{"account_number":"222222222","stock_list":[]}]
 
 2:lastMETXrec.txt
 {'Version': '2.00', 'BuyOrderId': 3587066880, 'BuyOrderSendTime': 0, 'SellOrderId': 3587066881, 'SellOrderSendTime': 0, 'TradeQty': 1, 'HighestExecPrice': 3.0, 'LowestExecPrice': 0.5, 'PriceStep': 0.01, 'ProfitStep': 0.05, 'SmallPriceOpti': 0, 'OptiState': -1, 'MainContract': 'STOCK', 'LastBuyPrice': 0.97, 'AlarmHighPrice': 2.5, 'AlarmLowPrice': 1.1}
