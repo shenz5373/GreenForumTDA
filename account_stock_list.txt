@@ -1,0 +1,1 @@
+[{"account_number":"237940770","stock_list":["METX","AMD"]},{"account_number":"237353025","stock_list":[]}]

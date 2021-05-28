@@ -1,0 +1,1 @@
+{'Version': '2.00', 'BuyOrderId': 3587066880, 'BuyOrderSendTime': 0, 'SellOrderId': 3587066881, 'SellOrderSendTime': 0, 'TradeQty': 1, 'HighestExecPrice': 3.0, 'LowestExecPrice': 0.5, 'PriceStep': 0.01, 'ProfitStep': 0.05, 'SmallPriceOpti': 0, 'OptiState': -1, 'MainContract': 'STOCK', 'LastBuyPrice': 0.97, 'AlarmHighPrice': 2.5, 'AlarmLowPrice': 1.1}
